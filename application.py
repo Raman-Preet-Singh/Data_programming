@@ -68,4 +68,4 @@ def api_get_tweets_by_country():
 
 if __name__ == '__main__':
     application.config['MONGO_URI'] = "mongodb+srv://twitterapiuser:tiet2009@cluster0.yy5azz6.mongodb.net/sample_twitter?retryWrites=true&w=majority"
-    application.run('127.0.0.1', debug=True)
+    application.run('0.0.0.0')
